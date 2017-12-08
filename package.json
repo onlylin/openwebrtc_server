@@ -1,0 +1,25 @@
+{
+  "name": "openwebrtc_sample",
+  "version": "0.0.1",
+  "description": "A sample from demo.openwebrtc.org",
+  "main": "channel_server.js",
+  "scripts": {
+    "start": "node channel_server.js"
+  },
+  "engines": {
+    "node": "4.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/valkov/openwebrtc_server"
+  },
+  "keywords": [
+    "webrtc",
+    "heroku",
+  ],
+  "author": "Valentin Kovalski",
+  "contributors": [
+    "Valentin Kovalski <valentinkovalski@gmail.com> "
+  ],
+  "license": "MIT"
+}
