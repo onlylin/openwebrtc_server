@@ -1,25 +1,23 @@
 {
-  "name": "openwebrtc_sample",
-  "version": "0.0.1",
-  "description": "A sample from demo.openwebrtc.org",
+  "name": "openwebrtc",
+  "version": "1.0.0",
+  "description": "\"Open webrtc from demo.openwebrtc.org\"",
   "main": "channel_server.js",
   "scripts": {
-    "start": "node channel_server.js"
-  },
-  "engines": {
-    "node": "4.0.0"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/valkov/openwebrtc_server"
+    "url": "git+https://github.com/valkov/openwebrtc_server.git"
   },
   "keywords": [
-    "webrtc",
-    "heroku",
+    "openwebrtc",
+    "webrtc"
   ],
   "author": "Valentin Kovalski",
-  "contributors": [
-    "Valentin Kovalski <valentinkovalski@gmail.com> "
-  ],
-  "license": "MIT"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/valkov/openwebrtc_server/issues"
+  },
+  "homepage": "https://github.com/valkov/openwebrtc_server#readme"
 }
